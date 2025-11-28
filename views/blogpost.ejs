@@ -1,0 +1,19 @@
+<%- include("partials/header.ejs") %>
+    <div id="blog-posts">
+        <h1 class="blog-main-heading">
+            <%= post.heading %>
+        </h1>
+        <p class="blog-main-post">
+            <%= post.body %>
+        </p>
+        <div class="buttons-blog">
+            <form action="/blog/<%= post.id %>?_method=DELETE" method="POST" class="delete-form">
+                <button class="btn danger-btn">Delete</button>
+                <a href="/blog/<%= post.id %>/edit" class="btn">Edit</a>
+            </form>
+            
+        </div>
+
+        <a href="/blog" class="btn btn-single-post">← Back to Blog</a>
+    </div>
+    <%- include("partials/footer.ejs") %>

@@ -1,0 +1,16 @@
+<%- include("partials/header.ejs") %>
+<div id="blog">
+    <div class="blog-list">
+        <h1 class="blog-h1">Featured Posts</h1>
+        <div class="blog-post">
+            <% posts.forEach(post => { %>
+            <h1 class="blog-heading"><%= post.heading %></h1>
+            <p class="blog-p"><%= post.body.substring(0, 150) %></p>
+            <p>
+                <a href="/blog/<%= post.id %>" class="blog-read">Continue reading...</a>
+            </p>
+            <% }) %>
+        </div>
+    </div>
+</div>
+<%- include("partials/footer.ejs") %>

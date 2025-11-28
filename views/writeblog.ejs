@@ -1,0 +1,10 @@
+<%- include("partials/header.ejs") %>
+<div id="write-blog">
+    <h1>Write A New Blog Post</h1>
+    <form action="/write" method="post">
+        <input type="text" class="blog-input" name="title" id="blog-title" placeholder="Please Type Your Blog Title.." required>
+        <textarea name="content" class="blog-input blog-input-post" id="blog-content" cols="30" rows="10" placeholder="Write Your Blog Here..." required></textarea>
+        <button type="submit" class="btn">Submit Blog</button>
+    </form>
+</div>
+<%- include("partials/footer.ejs") %>

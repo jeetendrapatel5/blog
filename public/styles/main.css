@@ -1,0 +1,237 @@
+* {
+    font-family: poppins;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    background-color: rgb(93, 160, 236);
+    color: white;
+}
+
+.navbar .nav-right {
+    display: flex;
+    gap: 20px;
+    text-transform: uppercase;
+}
+
+.nav-right a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#home {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+#home h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+#home p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    padding: 2px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: rgb(28, 130, 226);
+    border: none;
+    border-radius: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.home-btn {
+    display: flex;
+    gap: 20px;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+label{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+input {
+    padding: 5px;
+    width: 300px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+textarea {
+    padding: 5px;
+    width: 300px;
+    height: 100px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#about {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin-top: 80px;
+}
+
+#about p {
+    width: 60%;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+footer {
+    text-align: center;
+    padding: auto;
+    background-color: rgb(93, 160, 236);
+    color: white;
+}
+
+#blog {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.blog-list {
+    width: 86%;
+    margin-top: 60px;
+}
+
+.blog-list .blog-h1 {
+    font-size: 25px;
+    margin-bottom: 30px;
+    text-decoration: underline;
+}
+
+.blog-post {
+    border-bottom: 1px solid gray;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.blog-post .blog-heading {
+    font-weight: 700;
+}
+
+.blog-post .blog-p {
+    color: rgb(80, 77, 77);
+}
+
+.blog-read {
+    color: rgb(28, 130, 226);
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+#write-blog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin-top: 40px;
+}
+
+#write-blog form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 70px;
+}
+
+.blog-input {
+    width: 800px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.blog-input-post {
+    height: 250px;
+}
+
+#blog-posts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin-top: 80px;
+}
+
+.blog-main-heading {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.blog-main-post {
+    width: 70%;
+    white-space: pre-line;
+    margin-bottom: 50px;
+}
+
+.btn-single-post {
+    margin-bottom: 50px;
+} 
+
+#editForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+    gap: 25px;
+    height: 100vh;
+}
+
+.danger-btn {
+    background-color: red;
+    margin-bottom: 10px;
+}
+
+.buttons-blog {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
