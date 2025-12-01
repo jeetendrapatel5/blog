@@ -1,7 +1,7 @@
 <%- include("partials/header.ejs") %>
     <form action="/blog/<%= post.id %>?_method=PUT" method="POST" id="editForm">
         <input type="text" class="blog-input" name="title" value="<%= post.heading %>" required>
-        <textarea name="content" class="blog-input blog-input-post" required><%= post.body %></textarea>
+        <textarea name="content" class="blog-input blog-input-post blog-edit" required><%= post.body %></textarea>
         <button class="btn" type="submit">
             Update Blog
         </button>
